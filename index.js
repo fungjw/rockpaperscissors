@@ -36,10 +36,8 @@ function playGame() {
 
     switch(humanChoice) {
       case("ROCK"):
-        console.log("Rock")
         if (computerChoice == "PAPER") { 
           computerScore++; 
-          console.log("vs paper")
         }
         else if (computerChoice == "SCISSORS") {
           humanScore++;
